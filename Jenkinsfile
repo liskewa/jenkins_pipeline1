@@ -11,7 +11,7 @@ pipeline {
             steps{
                 sh '''mvn clean
 mvn compile'''
-                sh '''STUFF TO TRIGGER ERROR'''
+                sh '''STUFF-TO-TRIGGER-ERROR'''
             }
         }
         stage ('Testing Code') {
